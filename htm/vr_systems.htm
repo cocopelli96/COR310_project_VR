@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COR310 Project: VR Systems</title>
+	
+	<link rel="stylesheet" type="text/css" href="../common/style.css" />
+	<script type="text/javascript" src="../assets/bootstrap/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="../common/general.js"></script>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div id="wrapper">
+	
+	<!-- Banner Start -->
+		<div id="banner">
+			<div id="banner_img_1_container" class="col-sm-4 hidden-xs">
+				<img id="banner_img_1" class="img-responsive center-block" src="../images/virtual-reality-3.jpg" alt="Man viewing VR envirnment using VR headset" />
+			</div>
+			
+			<div id="banner_text" class="col-sm-4 col-xs-12">
+				<h1>Virtual Reality</h1>
+				<h3>A View on Today's Progress</h3>
+			</div>
+			
+			<div id="banner_img_2_container" class="col-sm-4 hidden-xs">
+				<img id="banner_img_2" class="img-responsive center-block" src="../images/VR-headsets.jpg" alt="Two VR headsets" />
+			</div>
+		</div>
+	<!-- Banner End -->
+		
+	<!-- Navbar Start -->
+		<div id="nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header hidden-sm hidden-md hidden-lg">
+					<a class="navbar-brand" href="#">Introduction</a>
+					
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-list" aria-expanded="false">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="fa fa-bars"></span>
+					</button>
+				</div>
+				
+				<div id="navbar-list" class="navbar-collapse collapse" aria-expanded="false">
+					<ul class="nav navbar-nav list-group">
+						<li>
+							<a href="../index.htm">Home</a>
+						</li>
+						<li>
+							<a href="intro.htm">Introduction</a>
+						</li>
+						
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VR Today <span class="fa fa-caret-down"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="vr_types.htm">Types of VR</a></li>
+								<li class="active"><a href="vr_systems.htm">VR Systems</a></li>
+							</ul>
+						</li>
+						
+						<li>
+							<a href="#">Education</a>
+						</li>
+						<li>
+							<a href="#">Entertainment</a>
+						</li>
+						<li>
+							<a href="#">Workplace</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- Navbar End -->
+		
+	<!-- Main Content Start -->
+		<div id="content">
+			<h1>Virtual Reality Systems</h1>
+			<p>The virtual reality systems of today are mainly headsets which range in prices and intractability. Each headset is designed differently from looks, to how it operates, to whether or not it has external controllers. Below is a listing of the current top VR headsets, the companies that make them, and any information about them. Some systems are still being developed and will soon be released others have been of for some time. By the end of this year, all of these headsets will have been released.</p>
+			
+			<div id="vr_summary_video_container" class="video-container col-sm-12 col-xs-12">
+				<h4 class="text-center">VR Headset Listing Summary</h4>
+				<video id="vr_summary_video" class="video center-block" controls poster="../images/VR-headsets.jpg" >
+					<source src="http://n2ps.storied.co/uploads/568131ae9f160b2d330520908f0850e6.mp4" type="video/mp4"/>
+				</video>
+			</div>
+			
+			<div class="col-sm-12 col-xs-12">
+				<h2 id="google_cardboard">Google Cardboard</h2>
+				<div class="col-sm-6 col-xs-12">
+					<p>If you want to do cheap VR then this is the system for you. It is made of of two parts, a phone (any phone) and the specially designed Google Cardboard. This cardboard is made to fold together into a pair of viewing goggles which hold a phone. Then any video or images displayed on the phone's screen are passed through a special compartment of the Google Cardboard making into a VR environment.</p>
+					<p>Now this system isn't perfect, there are many issues from lagging to VR image quality. But for $20 and the flexibility to turn any phone into a VR device it is worth it. There is also the issue that Google Cardboard doesn't allow you to interact with what is displayed, it is a VR viewer not a gaming system. That being said there are several Google Cardboard compatible apps and YouTube videos are apparently VR compatible.</p>
+					<ul>
+						<li>Creator - Google</li>
+						<li>Cost - $20</li>
+						<li>Run with - Phone</li>
+						<li>Upsides - Cheap and Portable</li>
+						<li>Downsides - Its essentially a VR viewer not a full immersive experience.</li>
+					</ul>
+				</div>
+				
+				<img src="../images/google_cardboard.png" alt="Image of Google Cardboard headset" class="col-sm-6 hidden-xs" />
+				
+				<div id="google_cardboard_video_container" class="video-container col-sm-12 col-xs-12">
+					<h4 class="text-center">How to use Google Cardboard</h4>
+					<!-- embeded youtube vieo -->
+					<iframe id="google_cardboard_video" class="video center-block" src="https://www.youtube.com/embed/y1YHKSjp5bk" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class="col-sm-12 col-xs-12">
+				<h2 id="gear_vr">Samsung Gear VR</h2>
+				
+				<div class="col-sm-6 col-xs-12">
+					<p>If Google Cardboard is the bottom of the line then Samsung Gear VR is the next step up. Its more comfortable and has better sensors and controls than Google Cardboard, but it still uses a phone. With hardware at a price of $100 Gear VR it is still relatively affordable. Biggest downside, the fact that it only works with select models of Samsung phones: Note 5, S6, S6 Edge, S6 Edge+, S7, S7 Edge.</p>
+					<p>Like Google Cardboard there are several apps out that can be used for Gear VR experiences. However unlike Google Cardboard you can now interact. With limited controls and motion senors the Gear VR takes you to a new side of VR entertainment. So what are the flaws of Gear VR? Simple while it is easy to transport the battery doesn't last more than a couple of hours and graphics are still a bit limited due to the design of phones today.</p>
+					<ul>
+						<li>Creator - Samsung</li>
+						<li>Cost - $100</li>
+						<li>Run with - Samsung Phone (Note 5, S6, S6 Edge, S6 Edge+, S7, S7 Edge)</li>
+						<li>Upsides - Cheap portable system with sensors and controllers to allow you to interact with the VR environment.</li>
+						<li>Downsides - Battery only lasts a couple hours, controls are still limited, and it is only compatible with select phone models.</li>
+					</ul>
+				</div>
+				
+				<img src="../images/gear_vr.jpg" alt="Image of Samsung Gear VR headset" class="col-sm-6 hidden-xs" />
+			</div>
+			
+			<div class="col-sm-12 col-xs-12">
+				<h2 id="oculus_rift">Oculus Rift</h2>
+				
+				<div class="col-sm-6 col-xs-12">
+					<p>Now it's time to get into the "real" VR. By this I simply mean the high end graphics and in depth control sensors of the Oculus Rift make the VR experience very different. To start you don't simply have just head motions that control the environment, but you gain the ability to use a controller. This control could be an XBox One controller or a specially design Oculus Touch controller. And the system comes with two high end VR games when you get it.</p>
+					<p>So let's talk price. Google Cardboard enters the market at $20, Samsung Gear VR raises the cost to $100, but the Oculus Rift Headset alone costs $599. Then you need a high gaming computer to run the software. That's right, the Oculus Rift is a headset that is attached to your computer by a cable.</p>
+					<ul>
+						<li>Creator - Oculus and Facebook</li>
+						<li>Cost - $599</li>
+						<li>Run with - Gaming computer</li>
+						<li>Upsides - High end graphics and full immersive controls.</li>
+						<li>Downsides - Costs a good deal of money and has a cable connected to the computer.</li>
+					</ul>
+				</div>
+				
+				<img src="../images/oculus-rift.jpg" alt="Image of Oculus Rift headset" class="col-sm-6 hidden-xs" />
+			</div>
+			
+			<div class="col-sm-12 col-xs-12">
+				<h2 id="htc_vive">HTC Vive</h2>
+				
+				<div class="col-sm-6 col-xs-12">
+					<p>HTC Vive is possibly the ultimate VR experience today. At $799 the HTC Vive gives you a headset, two controllers, two Lighthouse stations, and two games to play. Though like the Oculus Rift it needs a powerful gaming computer to run the games.</p>
+					<p>So how does it work? Like the Oculus Rift the games run on your computer and you use the controllers to interact with the virtual envirnment. However unlike Oculus it adds two Lighthouse stations, small towers with cameras that are placed in the corners of the room. This allows you to walk around and the towers pick up the movement transalting it into the virtual environment.</p>
+					<p>Valve and HTC, the companies that make the system, also have another surprise in store. The system can connect to your phone, so it can keep you connected to the real world without ruining the VR experience.</p>
+					<ul>
+						<li>Creator - Valve and HTC</li>
+						<li>Cost - $799</li>
+						<li>Run with - Gaming Computer</li>
+						<li>Upsides - High end graphics, immersive technology that allows you to literally walk through the VR environment, and connection to your phone so you can stay connect with the real world.</li>
+						<li>Downsides - You give up an entire room to VR, takes time to set up, and needs a good gaming computer to run.</li>
+					</ul>
+				</div>
+				
+				<img src="../images/htc-vive-set.jpg" alt="Image of HTC Vive headet, controllers, and lighthouses" class="col-sm-6 hidden-xs" />
+				
+				<div id="vive_rift_video_container" class="video-container col-sm-12 col-xs-12">
+					<h4 class="text-center">Oculus Rift vs HTC Vive</h4>
+					<!-- embeded youtube vieo -->
+					<iframe id="vive_rift_video" class="video center-block" src="https://www.youtube.com/embed/vyq8DNtOcOQ" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class="col-sm-12 col-xs-12">
+				<h2 id="playstation_vr">Sony PlayStation VR</h2>
+				
+				<div class="col-sm-6 col-xs-12">
+					<p>Now the affordable alternative to VR, Sony's PlayStation VR. Now instead of using a gaming computer this system uses Sony's PlayStation 4 to run the games. The system doesn't come with controllers, but because it's connected to the PlayStation 4 so it makes use of existing controllers.</p>
+					<p>Honestly the graphics might not end up being as good as the HTC Vive or the Oculus Rift, but its cheaper (especially if you include a $350 PlayStation 4 versus a $1000+ gaming computer into the costs). The PlayStation VR has a price of $399 and being attached to a gaming console is sure to get a ton of games in the future.</p>
+					<ul>
+						<li>Creator - Sony</li>
+						<li>Cost - $399</li>
+						<li>Run with - PlayStation 4</li>
+						<li>Upsides - Affordable using a system you might already own.</li>
+						<li>Downsides - Graphics might not be the best and controls might be a little funky.</li>
+					</ul>
+				</div>
+				
+				<img src="../images/playstation_vr.jpg" alt="Image of PlayStation VR headset" class="col-sm-6 hidden-xs" />
+			</div>
+		</div>
+	<!-- Main Content End -->
+	
+	<!-- Footer Start -->
+		<div id="footer" class="col-sm-12 col-xs-12">
+			<div id="footer_content" class="col-sm-2 col-xs-4">
+				Travis Spinelli<br />
+				COR310 Lit Review<br />
+				October 10, 2016
+			</div>
+			
+			<div class="col-sm-4 hidden-xs">
+			</div>
+			
+			<div id="footer_links" class="col-sm-4 col-xs-8">
+				<h4 id="footer_link_title" class="col-sm-12 col-sm-12 text-center">Links</h4>
+				
+				<div class="col-sm-6 col-xs-6">
+					<a href="../index.htm">Home</a><br />
+					<a href="vr_systems.htm">VR Today</a><br />
+					<a href="#">Education</a><br />
+					<a href="#">Entertainment</a><br />
+					<a href="#">Workplace</a><br />
+				</div>
+				
+				<div class="col-sm-6 col-xs-6">
+					<a href="bib_vr_systems.htm">Current Page Bibliography</a><br />
+					<a href="#">Site Bibliography</a>
+				</div>
+			</div>
+			
+			<div class="col-sm-2 hidden-xs">
+			</div>
+		</div>
+	<!-- Footer End -->
+	
+	</div>
+</body>
+</html>

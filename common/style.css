@@ -1,0 +1,490 @@
+/* CSS file for week 1 */
+
+@import '../assets/bootstrap/css/bootstrap-theme.css';
+@import '../assets/bootstrap/css/bootstrap.css';
+@import '../assets/font-awesome/css/font-awesome.css';
+
+/* Classes for use anywhere in website */
+
+.font-bold
+{
+	font-weight: bold;
+}
+
+/* End my classes */
+
+/* Start  screen style sheet code */
+@media only screen and (min-width: 1023px) {
+
+/********************************
+	Page Setup
+********************************/
+
+html, body 
+{
+	width: 100%;
+	height: 100%;
+	font-family: verdana;
+	font-size: 12pt;
+	background-color: #00cccc;
+/* 	background-color: #ffffff; */
+	color: #000000;
+	margin: 0px;
+}
+
+#wrapper
+{
+	background-color: #00cccc;
+	position: relative;
+	margin: auto;
+	width: 100%;
+/* 	width: 1000px; */
+	height: 100%;
+}
+
+#content
+{
+	width: 100%;
+	min-height: 400px;
+	padding: 10px;
+}
+
+#home-content
+{
+	width: 880px;
+	padding: 5px;
+}
+
+h1
+{
+	font-size: 2em;
+}
+
+#footer
+{
+	width: 100%;
+	min-height: 75px;
+	background-color: #004d4d;
+	color: #ffffff;
+	padding: 5px;
+	font-size: .75em;
+}
+
+/***********************************
+	Banner Styles
+***********************************/
+
+#banner
+{
+	width: 100%;
+	min-height: 213px;
+	background-color: #004d4d;
+	color: #ffffff;
+}
+
+#banner_text
+{
+	display: inline;
+	text-align: center;
+	height: 100%;
+	margin-top: 65px;
+}
+
+#banner_text h1, #banner_text h3
+{
+	margin-top: 0;
+	width: 100%;
+}
+
+#banner_img_1
+{
+	margin-top: 10px;
+	height: 193px;
+	width: auto;
+}
+
+#banner_img_2
+{
+	height: 193px;
+	margin-top: 10px;
+	width: auto;
+}
+
+/***********************************
+	Styles for the index page
+***********************************/
+
+#wrapper-index
+{
+	background-image: url("../images/virtual-reality.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+	height: 100%;
+}
+
+#index-link
+{
+	border: solid #ddd 1px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 15px;
+	width: 10%;
+	position: absolute;
+	bottom: 10%;
+	left: 45%;
+	text-align: center;
+}
+
+#index-link:link, #index-link:visited
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+/************************************
+	Nav for the pages
+************************************/
+
+#nav
+{
+	height: 52px;
+	margin-bottom: 0;
+	border-color: #eeeeee;
+}
+
+#nav li
+{
+	background-color: #eeeeee;
+	border-color: #cccccc;
+}
+
+#nav .container
+{
+	width: 100%;
+	height: 50px;
+	background-color: #eeeeee;
+}
+
+.nav
+{
+	margin-bottom: 0;
+}
+
+.navbar-nav .dropdown-menu
+{
+	background-color: #eeeeee;
+}
+
+/**********************************
+	Main Content styles
+**********************************/
+
+#content h1
+{
+	margin-top: 0;
+}
+
+/**********************************
+	Footer Styles
+**********************************/
+
+#footer_link_title
+{
+	text-decoration: underline;
+}
+
+#footer a, #footer a:link, #footer:visited
+{
+	color: #ffffff;
+}
+
+/**********************************
+	VR Today Styles
+**********************************/
+
+.video-container
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.video
+{
+	height: 338px;
+	width: 600px;
+	background-color: #000000;
+}
+
+} /* End screen sheet code */
+
+/* Start mobile sheet code */
+
+@media only screen and (max-width: 1023px) {
+
+/*****************************
+	Mobile Page Setup
+*****************************/
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+	font-family: verdana;
+	font-size: 12pt;
+	background-color: #00cccc;
+/* 	background-color: #ffffff; */
+	color: #000000;
+	margin: 0px;
+}
+
+#wrapper
+{
+	background-color: #00cccc;
+	position: relative;
+	margin: auto;
+	width: 100%;
+/* 	width: 1000px; */
+	height: 100%;
+}
+
+#content
+{
+	width: 100%;
+	min-height: 400px;
+	padding: 10px;
+}
+
+#home-content
+{
+	width: 880px;
+	padding: 5px;
+}
+
+h1
+{
+	font-size: 2em;
+}
+
+#footer
+{
+	width: 100%;
+	min-height: 75px;
+	background-color: #004d4d;
+	color: #ffffff;
+	padding: 5px;
+	font-size: .75em;
+}
+
+/***********************************
+	Mobile Banner Styles
+***********************************/
+
+#banner
+{
+	width: 100%;
+	min-height: 170px;
+	background-color: #004d4d;
+	color: #ffffff;
+}
+
+#banner_text
+{
+	display: inline;
+	text-align: center;
+	height: 100%;
+	margin-top: 25px;
+}
+
+#banner_text h1, #banner_text h3
+{
+	margin-top: 0;
+	width: 100%;
+}
+
+#banner_img_1
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 150px;
+}
+
+#banner_img_2
+{
+	height: 150px;
+	margin-top: 10px;
+}
+
+/*****************************************
+	Mobile Styles for the index page
+*****************************************/
+
+#wrapper-index
+{
+	background-image: url("../images/virtual-reality.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+	height: 100%;
+}
+
+#index-link
+{
+	border: solid #ddd 1px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 15px;
+	width: 10%;
+	position: absolute;
+	bottom: 10%;
+	left: 45%;
+	text-align: center;
+}
+
+#index-link:link, #index-link:visited
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+/************************************
+	Mobile Nav for the pages
+************************************/
+
+#nav
+{
+	height: 52px;
+	margin-bottom: 0;
+	border-color: #eeeeee;
+}
+
+#nav li
+{
+	background-color: #eeeeee;
+	border-color: #cccccc;
+}
+
+#nav .container
+{
+	width: 100%;
+	height: 50px;
+	background-color: #eeeeee;
+}
+
+.nav
+{
+	margin-bottom: 0;
+}
+
+.navbar-nav .dropdown-menu
+{
+	background-color: #eeeeee;
+}
+
+/**********************************
+	Mobile Main Content styles
+**********************************/
+
+#content h1
+{
+	margin-top: 0;
+}
+
+/**********************************
+	Mobile Footer Styles
+**********************************/
+
+#footer_link_title
+{
+	text-decoration: underline;
+}
+
+#footer a, #footer a:link, #footer:visited
+{
+	color: #ffffff;
+}
+
+/**********************************
+	Mobile VR Today Styles
+**********************************/
+
+.video-container
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.video
+{
+	height: 225px;
+	width: 400px;
+	background-color: #000000;
+}
+
+} /* End mobile sheet code */
+
+/* Start phone screen size code */
+
+@media only screen and (max-width: 768px)
+{
+
+/*******************************
+	Phone Screen Banner Styles
+*******************************/
+
+#banner
+{
+	min-height: 120px;
+}
+
+#banner_text
+{
+	margin-top: 10px;
+}
+
+/*******************************
+	Phone Screen Navbar Styles
+*******************************/
+
+.navbar-nav
+{
+	margin-top: 0;
+}
+
+.navbar-toggle
+{
+	padding: 5px 10px;
+	background-color: #dddddd;
+}
+
+.navbar-default .navbar-toggle
+{
+	border-color: #bbbbbb;
+}
+
+.navbar-nav .dropdown-menu li
+{
+	background-color: #cccccc !important;
+}
+
+/***************************************
+	Phone Screen Main Content styles
+***************************************/
+
+#content h1
+{
+	margin-top: 0;
+}
+
+/**********************************
+	Phone Screen VR Today Styles
+**********************************/
+
+.video
+{
+	height: 158px;
+	width: 280px;
+	background-color: #000000;
+}
+
+} /* End phone screen size code */
