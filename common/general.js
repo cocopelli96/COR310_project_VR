@@ -7,25 +7,27 @@
 
 $(document).ready(function() {
 	$(window).scroll(function () {
+      		console.log($(window).scrollTop());
+      		console.log('width: ' + window.innerWidth);
       	if (window.innerWidth < 1024 && window.innerWidth > 768) {
-			if ($(window).scrollTop() > 170) {
+			if ($(window).scrollTop() > 180) {
 			  $('#nav').addClass('navbar-fixed-top');
 			}
-			if ($(window).scrollTop() < 171) {
+			if ($(window).scrollTop() < 181) {
 			  $('#nav').removeClass('navbar-fixed-top');
 			}
 		} else if (window.innerWidth < 769) {
-			if ($(window).scrollTop() > 120) {
+			if ($(window).scrollTop() > 130) {
 			  $('#nav').addClass('navbar-fixed-top');
 			}
-			if ($(window).scrollTop() < 121) {
+			if ($(window).scrollTop() < 131) {
 			  $('#nav').removeClass('navbar-fixed-top');
 			}
 		} else {
-			if ($(window).scrollTop() > 212) {
+			if ($(window).scrollTop() > 222) {
 			  $('#nav').addClass('navbar-fixed-top');
 			}
-			if ($(window).scrollTop() < 213) {
+			if ($(window).scrollTop() < 223) {
 			  $('#nav').removeClass('navbar-fixed-top');
 			}
 		}

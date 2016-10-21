@@ -1,4 +1,8 @@
-/* CSS file for week 1 */
+/* 
+	CSS file for COR310 Literature Review Project
+	The following statements import the Font Awesome and Bootstap
+	style libraries to use as a base for the styling of the website
+ */
 
 @import '../assets/bootstrap/css/bootstrap-theme.css';
 @import '../assets/bootstrap/css/bootstrap.css';
@@ -9,6 +13,17 @@
 .font-bold
 {
 	font-weight: bold;
+}
+
+.pad-for-nav
+{
+	padding-top: 5%;
+}
+
+.static-bottom
+{
+	position: relative;
+	bottom: 0;
 }
 
 /* End my classes */
@@ -27,7 +42,6 @@ html, body
 	font-family: verdana;
 	font-size: 12pt;
 	background-color: #00cccc;
-/* 	background-color: #ffffff; */
 	color: #000000;
 	margin: 0px;
 }
@@ -38,7 +52,6 @@ html, body
 	position: relative;
 	margin: auto;
 	width: 100%;
-/* 	width: 1000px; */
 	height: 100%;
 }
 
@@ -171,6 +184,12 @@ h1
 	margin-bottom: 0;
 }
 
+.navbar-collapse
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .navbar-nav .dropdown-menu
 {
 	background-color: #eeeeee;
@@ -262,7 +281,6 @@ html, body
 	font-family: verdana;
 	font-size: 12pt;
 	background-color: #00cccc;
-/* 	background-color: #ffffff; */
 	color: #000000;
 	margin: 0px;
 }
@@ -273,7 +291,6 @@ html, body
 	position: relative;
 	margin: auto;
 	width: 100%;
-/* 	width: 1000px; */
 	height: 100%;
 }
 
@@ -405,6 +422,12 @@ h1
 	margin-bottom: 0;
 }
 
+.navbar-collapse
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .navbar-nav .dropdown-menu
 {
 	background-color: #eeeeee;
@@ -478,11 +501,12 @@ a:hover, a:focus
 {
 	margin-bottom: 10px;
 }
+
 } /* End mobile sheet code */
 
 /* Start phone screen size code */
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 767px)
 {
 
 /*******************************
@@ -502,6 +526,12 @@ a:hover, a:focus
 /*******************************
 	Phone Screen Navbar Styles
 *******************************/
+
+.navbar-collapse
+{
+	padding-left: inherit;
+	padding-right: inherit;
+}
 
 .navbar-nav
 {
@@ -524,15 +554,6 @@ a:hover, a:focus
 	background-color: #cccccc !important;
 }
 
-/***************************************
-	Phone Screen Main Content styles
-***************************************/
-
-#content h1
-{
-	margin-top: 0;
-}
-
 /**********************************
 	Phone Screen VR Today Styles
 **********************************/
@@ -545,3 +566,23 @@ a:hover, a:focus
 }
 
 } /* End phone screen size code */
+
+/* Start large screen styles */
+
+@media only screen and (min-height: 750px) {
+
+#content
+{
+	min-height: 600px;
+}
+
+}/* End large screen styles */
+
+@media only screen and (min-height: 951px) {
+
+#content
+{
+	min-height: 950px;
+}
+
+}/* End large screen styles */
