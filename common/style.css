@@ -264,6 +264,28 @@ a:hover, a:focus
 	margin-bottom: 10px;
 }
 
+/************************************
+	Footer List styles
+************************************/
+
+#footer ul li
+{
+	display: inline-block;
+	list-style: none;
+	font-size: 1.2em;
+	padding: 0 10px;
+}
+
+#footer .fa
+{
+	padding: 0;
+}
+
+#footer h4
+{
+	margin-top: 0;
+}
+
 } /* End screen sheet code */
 
 /* Start mobile sheet code */
@@ -500,6 +522,28 @@ a:hover, a:focus
 .image-container
 {
 	margin-bottom: 10px;
+}
+
+/************************************
+	Mobile Footer List styles
+************************************/
+
+#footer ul li
+{
+	display: inline-block;
+	list-style: none;
+	font-size: 1.2em;
+	padding: 0 10px;
+}
+
+#footer .fa
+{
+	padding: 0;
+}
+
+#footer h4
+{
+	margin-top: 0;
 }
 
 } /* End mobile sheet code */
