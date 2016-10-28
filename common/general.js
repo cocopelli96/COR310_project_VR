@@ -7,8 +7,6 @@
 
 $(document).ready(function() {
 	$(window).scroll(function () {
-      		console.log($(window).scrollTop());
-      		console.log('width: ' + window.innerWidth);
       	if (window.innerWidth < 1024 && window.innerWidth > 768) {
 			if ($(window).scrollTop() >= 180) {
 			  $('#nav').addClass('navbar-fixed-top');
@@ -35,6 +33,11 @@ $(document).ready(function() {
 			}
 		}
 	});
+	
+	console.log(window.innerHeight);
+	if (window.innerHeight > 1000) {
+		$('#content').height(window.innerHeight - 400);
+	}
 });
 
 /* End borrowed code */

@@ -611,7 +611,7 @@ a:hover, a:focus
 
 } /* End phone screen size code */
 
-/* Start large screen styles */
+/* Start large 1 screen styles */
 
 @media only screen and (min-height: 750px) {
 
@@ -620,7 +620,9 @@ a:hover, a:focus
 	min-height: 600px;
 }
 
-}/* End large screen styles */
+}/* End large 1 screen styles */
+
+/* Start large 2 screen styles */
 
 @media only screen and (min-height: 951px) {
 
@@ -629,4 +631,5 @@ a:hover, a:focus
 	min-height: 950px;
 }
 
-}/* End large screen styles */
+}/* End large 2 screen styles */
+
