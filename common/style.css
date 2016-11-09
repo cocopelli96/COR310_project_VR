@@ -175,7 +175,7 @@ h1
 #nav .container
 {
 	width: 100%;
-	height: 50px;
+	min-height: 50px;
 	background-color: #eeeeee;
 }
 
@@ -188,6 +188,13 @@ h1
 {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+#nav .dropdown-menu .active a:link, #nav .dropdown-menu .active a:visited,
+#nav .dropdown-menu .active a:focus, #nav .dropdown-menu .active a:hover,
+#nav .dropdown-menu .active a
+{
+	color: #ffffff;
 }
 
 .navbar-nav .dropdown-menu
@@ -435,7 +442,7 @@ h1
 #nav .container
 {
 	width: 100%;
-	height: 50px;
+	min-height: 50px;
 	background-color: #eeeeee;
 }
 
@@ -448,6 +455,13 @@ h1
 {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+#nav .dropdown-menu .active a:link, #nav .dropdown-menu .active a:visited,
+#nav .dropdown-menu .active a:focus, #nav .dropdown-menu .active a:hover,
+#nav .dropdown-menu .active a
+{
+	color: #ffffff;
 }
 
 .navbar-nav .dropdown-menu
